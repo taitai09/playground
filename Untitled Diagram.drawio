@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-24T23:58:57.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="CNaGCTsgaKMJPYPH_gH8" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T06:32:34.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="dbRmtpejgEizjykhxYsa" version="14.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2591" dy="762" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -26,6 +26,9 @@
         <mxCell id="MPVV-2FYmL4CXVkORiL9-2" value="선택된 것이 폴더인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-681" y="208" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MPVV-2FYmL4CXVkORiL9-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-6" target="MPVV-2FYmL4CXVkORiL9-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-6" value="선택된 것이 프로젝트인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-276" y="208" width="180" height="30" as="geometry" />
         </mxCell>
@@ -36,27 +39,23 @@
             <mxPoint x="-461" y="342" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MPVV-2FYmL4CXVkORiL9-13" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-6" target="MPVV-2FYmL4CXVkORiL9-16">
-          <mxGeometry y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="-451" y="312" as="sourcePoint" />
-            <mxPoint x="-230" y="342" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-15" target="MPVV-2FYmL4CXVkORiL9-69">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-956.5" y="432" as="targetPoint" />
+            <mxPoint x="-956.5" y="470" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-510" y="428" />
-              <mxPoint x="-956" y="428" />
+              <mxPoint x="-510" y="466" />
+              <mxPoint x="-956" y="466" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-15" value="List에 폴더의 &lt;br&gt;LastSegment 저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-586" y="382" width="152.5" height="30" as="geometry" />
+          <mxGeometry x="-586" y="420" width="152.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MPVV-2FYmL4CXVkORiL9-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-16" target="MPVV-2FYmL4CXVkORiL9-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-16" value="에러 메시지 List에 저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-262.25" y="263" width="152.5" height="20" as="geometry" />
+          <mxGeometry x="-262.25" y="305" width="152.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-17" value="파일 폴더 이름 List에 존재하는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1057" y="258" width="200" height="50" as="geometry" />
@@ -72,7 +71,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-19" value="&lt;span&gt;List에 파일의 폴더 이름 저장&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-936" y="342" width="160" height="20" as="geometry" />
+          <mxGeometry x="-936" y="380" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-26" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-2" target="MPVV-2FYmL4CXVkORiL9-6">
           <mxGeometry y="10" relative="1" as="geometry">
@@ -81,20 +80,16 @@
             <mxPoint x="-469.5" y="277" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MPVV-2FYmL4CXVkORiL9-28" value="폴더 이름 List에 존재하는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-706" y="258" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="MPVV-2FYmL4CXVkORiL9-29" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-28" target="MPVV-2FYmL4CXVkORiL9-69">
-          <mxGeometry x="-0.9442" y="-20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="-310" y="192" as="sourcePoint" />
-            <mxPoint x="-956.5" y="432" as="targetPoint" />
+        <mxCell id="MPVV-2FYmL4CXVkORiL9-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-28" target="MPVV-2FYmL4CXVkORiL9-69">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-601" y="292" />
-              <mxPoint x="-601" y="428" />
-              <mxPoint x="-956" y="428" />
+              <mxPoint x="-606" y="467" />
+              <mxPoint x="-956" y="467" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MPVV-2FYmL4CXVkORiL9-28" value="폴더 이름 List에 존재하는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-706" y="258" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-30" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-28" target="MPVV-2FYmL4CXVkORiL9-85">
           <mxGeometry y="10" relative="1" as="geometry">
@@ -103,18 +98,16 @@
             <mxPoint x="-886" y="292" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MPVV-2FYmL4CXVkORiL9-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-43" target="MPVV-2FYmL4CXVkORiL9-69">
+        <mxCell id="MPVV-2FYmL4CXVkORiL9-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-43" target="MPVV-2FYmL4CXVkORiL9-69">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-956.5" y="432" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-187" y="322" />
-              <mxPoint x="-187" y="428" />
-              <mxPoint x="-956" y="428" />
+              <mxPoint x="-186" y="467" />
+              <mxPoint x="-956" y="467" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-43" value="프로젝트 이름 List에 저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-262.25" y="302" width="152.5" height="20" as="geometry" />
+          <mxGeometry x="-262.25" y="344" width="152.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-79" target="MPVV-2FYmL4CXVkORiL9-45">
           <mxGeometry relative="1" as="geometry" />
@@ -141,20 +134,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MPVV-2FYmL4CXVkORiL9-52" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-16" target="MPVV-2FYmL4CXVkORiL9-43">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-586" y="412" as="sourcePoint" />
-            <mxPoint x="-536" y="362" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-54" value="에러 메시지 List가 존재하는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1056.5" y="612" width="200" height="40" as="geometry" />
+          <mxGeometry x="-1056.5" y="650" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-58" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-54" target="MPVV-2FYmL4CXVkORiL9-77">
           <mxGeometry x="-0.6" y="15" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="-512" y="524" as="sourcePoint" />
-            <mxPoint x="-957" y="910" as="targetPoint" />
+            <mxPoint x="-512" y="562" as="sourcePoint" />
+            <mxPoint x="-957" y="948" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -174,7 +161,7 @@
             <mxPoint x="-857" y="643.5" as="sourcePoint" />
             <mxPoint x="-572" y="643.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-82" y="632" />
+              <mxPoint x="-82" y="670" />
               <mxPoint x="-82" y="129" />
             </Array>
           </mxGeometry>
@@ -183,25 +170,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-69" value="List 폴더 이름에서&lt;br&gt;List 파일의 폴더 이름이 존재하는가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1079" y="452" width="245" height="40" as="geometry" />
+          <mxGeometry x="-1079" y="490" width="245" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-71" target="MPVV-2FYmL4CXVkORiL9-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-71" value="&lt;span&gt;List에 파일의 폴더 이름 삭제&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1036.5" y="522" width="160" height="20" as="geometry" />
+          <mxGeometry x="-1036.5" y="560" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-72" target="MPVV-2FYmL4CXVkORiL9-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-72" value="파일 폴더 이름 Pass 값을 Map에 저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1036.5" y="562" width="160" height="29" as="geometry" />
+          <mxGeometry x="-1036.5" y="600" width="160" height="29" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-74" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-961.5" y="492" width="40" height="20" as="geometry" />
+          <mxGeometry x="-961.5" y="530" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-77" value="에러 메시지, 폴드 정보 List, 파일 정보 List를 Map을 감싸서 돌려준다." style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1102" y="701" width="292" height="33" as="geometry" />
+          <mxGeometry x="-1102" y="739" width="292" height="33" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-79" value="SQL 품질 점검" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1007" y="74" width="100" height="20" as="geometry" />
@@ -219,24 +206,25 @@
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-103" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-82" target="MPVV-2FYmL4CXVkORiL9-69">
           <mxGeometry x="-0.8797" y="13" relative="1" as="geometry">
+            <mxPoint x="-738.5" y="390" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-737" y="352" />
-              <mxPoint x="-737" y="428" />
-              <mxPoint x="-956" y="428" />
+              <mxPoint x="-738" y="466" />
+              <mxPoint x="-956" y="466" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-82" value="파일 폴더 이름이&lt;br&gt;pass Map에 존재하는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-838.5" y="302" width="200" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="MPVV-2FYmL4CXVkORiL9-89" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-85" target="MPVV-2FYmL4CXVkORiL9-86">
-          <mxGeometry x="-0.3522" y="-15" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry x="-838" y="301" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-92" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-85" target="MPVV-2FYmL4CXVkORiL9-15">
           <mxGeometry x="-0.6048" y="16" relative="1" as="geometry">
+            <mxPoint x="-382.25" y="370" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPVV-2FYmL4CXVkORiL9-108" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-85" target="MPVV-2FYmL4CXVkORiL9-106">
+          <mxGeometry x="-0.4324" y="-11" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -247,19 +235,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-86" value="에러 메시지 List에 저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-586" y="342" width="152.5" height="20" as="geometry" />
+          <mxGeometry x="-589" y="382" width="152.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-95" target="MPVV-2FYmL4CXVkORiL9-69">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-854" y="412" />
-              <mxPoint x="-854" y="428" />
-              <mxPoint x="-956" y="428" />
+              <mxPoint x="-854" y="450" />
+              <mxPoint x="-854" y="466" />
+              <mxPoint x="-956" y="466" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-95" value="List에 파일의&lt;br&gt;LastSegment&amp;nbsp;저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-932.25" y="382" width="152.5" height="30" as="geometry" />
+          <mxGeometry x="-932.25" y="420" width="152.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-98" value="SQL 품질 점검의&amp;nbsp; N개 파일 선택 및 폴더 1개 지원 그리고 선택된 파일의 폴더 정보가 선택되어 있으면 파일 정보는 무시" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-802" y="34" width="10" height="30" as="geometry" />
@@ -269,6 +257,18 @@
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-104" value="Resource 정보 획득" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1020" y="168" width="127" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="MPVV-2FYmL4CXVkORiL9-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-106" target="MPVV-2FYmL4CXVkORiL9-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPVV-2FYmL4CXVkORiL9-106" value="에러 Type 저장(Type:2)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-589" y="335" width="152.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MPVV-2FYmL4CXVkORiL9-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-111" target="MPVV-2FYmL4CXVkORiL9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPVV-2FYmL4CXVkORiL9-111" value="에러 Type 저장(Type:2)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-262.25" y="262" width="152.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
