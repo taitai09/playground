@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T06:32:34.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="dbRmtpejgEizjykhxYsa" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T06:52:51.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="o2jVvpawwODgxRkmQMZU" version="14.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2591" dy="762" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
         <mxCell id="MPVV-2FYmL4CXVkORiL9-16" value="에러 메시지 List에 저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-262.25" y="305" width="152.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="MPVV-2FYmL4CXVkORiL9-17" value="파일 폴더 이름 List에 존재하는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MPVV-2FYmL4CXVkORiL9-17" value="폴더 이름 LIst에 파일의 &lt;br&gt;부모 폴더 이름이 존재하는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1057" y="258" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-18" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="MPVV-2FYmL4CXVkORiL9-17">
@@ -169,7 +169,7 @@
         <mxCell id="MPVV-2FYmL4CXVkORiL9-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-69" target="MPVV-2FYmL4CXVkORiL9-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPVV-2FYmL4CXVkORiL9-69" value="List 폴더 이름에서&lt;br&gt;List 파일의 폴더 이름이 존재하는가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MPVV-2FYmL4CXVkORiL9-69" value="폴더 이름 List에서&lt;br&gt;List 파일의 폴더 이름이 존재하는가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1079" y="490" width="245" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MPVV-2FYmL4CXVkORiL9-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-71" target="MPVV-2FYmL4CXVkORiL9-72">
@@ -267,8 +267,11 @@
         <mxCell id="MPVV-2FYmL4CXVkORiL9-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MPVV-2FYmL4CXVkORiL9-111" target="MPVV-2FYmL4CXVkORiL9-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPVV-2FYmL4CXVkORiL9-111" value="에러 Type 저장(Type:2)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MPVV-2FYmL4CXVkORiL9-111" value="에러 Type 저장(Type:1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-262.25" y="262" width="152.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MPVV-2FYmL4CXVkORiL9-118" value="에러 Type의 우선 순위는 1, 2 순이다. 따라서 Type 값이 2가 있어도 1이 발생되면 에러 Type은 1이 된다" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-802" y="75" width="29" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
